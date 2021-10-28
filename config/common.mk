@@ -87,6 +87,9 @@ include vendor/ssos/config/ssos_audio.mk
 # Include extra packages
 include vendor/ssos/config/packages.mk
 
+# Include GApps
+include vendor/gms/products/gms.mk
+
 # Do not include art debug targets
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 
